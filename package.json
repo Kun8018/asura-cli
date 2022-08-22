@@ -1,0 +1,43 @@
+{
+  "name": "asura-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "asura-cli": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kun8018/asura-cli.git"
+  },
+  "keywords": [
+    "FrontEnd",
+    "cli"
+  ],
+  "author": "kun8018",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kun8018/asura-cli/issues"
+  },
+  "homepage": "https://github.com/Kun8018/asura-cli#readme",
+  "dependencies": {
+    "@types/node": "^18.7.9",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "download": "^8.0.0",
+    "fs-extra": "^10.1.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^9.1.0",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.1.2",
+    "ts-node": "^10.9.1",
+    "update-notifier": "^6.0.2"
+  }
+}
